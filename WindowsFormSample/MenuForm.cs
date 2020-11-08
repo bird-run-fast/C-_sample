@@ -33,5 +33,13 @@ namespace WindowsFormSample
                 f.ShowDialog();
             }
         }
+
+        private void GameButton_Click(object sender, EventArgs e)
+        {
+            using (GameForm f = new GameForm()) 
+            {
+                f.ShowDialog();
+            }
+        }
     }
 }

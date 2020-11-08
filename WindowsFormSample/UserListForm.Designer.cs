@@ -39,16 +39,17 @@
             this.UserDataGrid.Location = new System.Drawing.Point(0, 0);
             this.UserDataGrid.Name = "UserDataGrid";
             this.UserDataGrid.RowTemplate.Height = 21;
-            this.UserDataGrid.Size = new System.Drawing.Size(800, 450);
+            this.UserDataGrid.Size = new System.Drawing.Size(547, 450);
             this.UserDataGrid.TabIndex = 0;
             // 
             // UserListForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(547, 450);
             this.Controls.Add(this.UserDataGrid);
             this.Name = "UserListForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ユーザーリスト";
             ((System.ComponentModel.ISupportInitialize)(this.UserDataGrid)).EndInit();
             this.ResumeLayout(false);

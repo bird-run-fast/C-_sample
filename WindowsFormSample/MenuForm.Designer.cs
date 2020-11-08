@@ -30,6 +30,7 @@
         {
             this.UserSaveFormButton = new System.Windows.Forms.Button();
             this.UserListFormButton = new System.Windows.Forms.Button();
+            this.GameButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // UserSaveFormButton
@@ -54,11 +55,23 @@
             this.UserListFormButton.UseVisualStyleBackColor = true;
             this.UserListFormButton.Click += new System.EventHandler(this.UserListFormButton_Click);
             // 
+            // GameButton
+            // 
+            this.GameButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.GameButton.Location = new System.Drawing.Point(0, 218);
+            this.GameButton.Name = "GameButton";
+            this.GameButton.Size = new System.Drawing.Size(494, 109);
+            this.GameButton.TabIndex = 2;
+            this.GameButton.Text = "ミニゲーム";
+            this.GameButton.UseVisualStyleBackColor = true;
+            this.GameButton.Click += new System.EventHandler(this.GameButton_Click);
+            // 
             // MenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(494, 450);
+            this.Controls.Add(this.GameButton);
             this.Controls.Add(this.UserListFormButton);
             this.Controls.Add(this.UserSaveFormButton);
             this.Name = "MenuForm";
@@ -71,5 +84,6 @@
 
         private System.Windows.Forms.Button UserSaveFormButton;
         private System.Windows.Forms.Button UserListFormButton;
+        private System.Windows.Forms.Button GameButton;
     }
 }

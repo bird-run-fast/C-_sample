@@ -10,3 +10,7 @@ C:\Users\tomokiono\Desktop\workspace\WindowsFormSample\WindowsFormSample\obj\Deb
 C:\Users\tomokiono\Desktop\workspace\WindowsFormSample\WindowsFormSample\obj\Debug\WindowsFormSample.UserSaveForm.resources
 C:\Users\tomokiono\Desktop\workspace\WindowsFormSample\WindowsFormSample\obj\Debug\WindowsFormSample.MenuForm.resources
 C:\Users\tomokiono\Desktop\workspace\WindowsFormSample\WindowsFormSample\obj\Debug\WindowsFormSample.UserListForm.resources
+C:\Users\tomokiono\Desktop\workspace\WindowsFormSample\WindowsFormSample\obj\Debug\WindowsFormSample.GameForm.resources
+C:\Users\tomokiono\Desktop\workspace\WindowsFormSample\WindowsFormSample\bin\Debug\Image\choki.png
+C:\Users\tomokiono\Desktop\workspace\WindowsFormSample\WindowsFormSample\bin\Debug\Image\goo.png
+C:\Users\tomokiono\Desktop\workspace\WindowsFormSample\WindowsFormSample\bin\Debug\Image\par.png
